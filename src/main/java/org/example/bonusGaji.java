@@ -17,8 +17,8 @@ public class bonusGaji {
         System.out.print("masa kerja: ");
         masaKerja=bonus.nextInt();
 
-        if (masaKerja >=0 && masaKerja <=10){
-            Bonus=0.50;
+        if (masaKerja >=0 && masaKerja <=10){ //kondisi jika masa kerja 10 tahun
+            Bonus=0.50; //value bonus 0.50
         }else if (masaKerja >=11 && masaKerja <=20){
             Bonus=0.60;
         }else{
@@ -32,8 +32,8 @@ public class bonusGaji {
         }
 
 
-        switch (golongan){
-            case "I":
+        switch (golongan){ //evaluasi golongan
+            case "I": //ekspresi adalah I
                 persen = 0.50;
                 break;
             case "II":
@@ -49,6 +49,6 @@ public class bonusGaji {
 
 
 
-        System.out.println("dsbuwegfyw" +Bonus);
+        System.out.println("bonus akhir tahun: " +Bonus);
     }
 }
