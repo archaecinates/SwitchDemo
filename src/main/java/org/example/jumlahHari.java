@@ -49,7 +49,7 @@ public class jumlahHari {
             case "desember":
                 hari=31;
                 break;
-            default: bulan = "invalid data";
+            default: bulan = "invalid data"; //mengembalikan nilai jika tidak ada yg valid
             break;
         }
         System.out.println("jumlah hari di bulan "+bulan +" adalah "+hari +" hari"); //mencetak jumlah bulan dan hari
