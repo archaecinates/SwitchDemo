@@ -30,7 +30,7 @@ public class kaos { //mendeklarasikan kelas utama yakni kaos
             case "XXL":
                 harga=60000;
                 break;
-            default: ukuran = "invalid";
+            default: ukuran = "invalid"; //
             break;
         }
 
