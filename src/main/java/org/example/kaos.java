@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class kaos { //mendeklarasikan kelas utama yakni kaos
     public static void main(String[] args) {
-        Scanner Kaos = new Scanner(System.in);
+        Scanner Kaos = new Scanner(System.in); //membuat objek Scanner
 
         String ukuran = ""; //mendeklarasikan ukuran dengan tipe String
         int harga = 0, total, jumlah = 0; //mendeklarasikan harga, total, dan jumlah dengan tipe int
@@ -30,7 +30,7 @@ public class kaos { //mendeklarasikan kelas utama yakni kaos
             case "XXL":
                 harga=60000;
                 break;
-            default: ukuran = "invalid"; //
+            default: ukuran = "invalid"; //mengembalikan jika tidak ada yang valid
             break;
         }
 
