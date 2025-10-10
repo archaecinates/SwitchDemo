@@ -37,6 +37,8 @@ public class kaos { //mendeklarasikan kelas utama yakni kaos
 
         total = jumlah * harga; //menghitung total dengan rumus jumlah * harga
 
+        System.out.println("harga: "+harga); //mencetak harga
+        System.out.println("jumlah: "+jumlah); //mencetak total
         System.out.println("harga kaos adalah: " + total); //mencetak total harga kaos
     } //menutup fungsi main
 } //menutup fungsi class
